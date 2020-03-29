@@ -2,7 +2,7 @@
     "id": "c0572fda-1241-494b-bf95-f0210f374856",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite3",
+    "name": "spr_wall",
     "For3D": false,
     "HTile": false,
     "VTile": false,

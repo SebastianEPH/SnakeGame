@@ -1,5 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
-global.points = 0
+/// @description  Vaiables globales
 
-//alarm[0] = room_speed
+
+// Variables Globales
+
+//Variable dirección
+//El juego empezará con 0, y cuando éste cambie de posición , el juego comenzara, 
+global dir  = 6; // DerechA , solo por antigubeo
+
