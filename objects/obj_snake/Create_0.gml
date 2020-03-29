@@ -1,7 +1,7 @@
 /// @description  Llama alarma
 
 // Longitud
-longitud = 1;
+longitud = 8;
 // Posición
 position = 0;	// 0 Cabeza
 
