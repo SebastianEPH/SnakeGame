@@ -12,4 +12,4 @@
 
 
 // Llama a la alarma x 1 segundo
-alarm [0] = room_speed;	
+alarm [0] = room_speed/2;	
