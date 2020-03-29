@@ -9,19 +9,19 @@ if (position == 0){
 	switch(global.dir){
 		case 6:	// Derecha
 			// Crea una instancia - Right
-			instance_create_layer(x+32,y,obj_snake,obj_snake);
+			instance_create_layer(x+64,y,obj_snake,obj_snake);
 		break;
 		case 4: // Izquierda
 			// Crea una instancia - Left
-			instance_create_layer(x-32,y,obj_snake,obj_snake);
+			instance_create_layer(x-64,y,obj_snake,obj_snake);
 		break;
 		case 2:	// Abajo
 			// Crea una instancia - Down
-			instance_create_layer(x,y+32,obj_snake,obj_snake);
+			instance_create_layer(x,y+64,obj_snake,obj_snake);
 		break;
 		case 8:	// arriba
 			// Crea una instancia - Up
-			instance_create_layer(x,y-32,obj_snake,obj_snake);
+			instance_create_layer(x,y-64,obj_snake,obj_snake);
 		break;
 		default:
 		//

@@ -5,6 +5,8 @@ if (keyboard_check_pressed(vk_down)){
 	if(global.dir != 8){
 		// Solo se puede mover si es el gusano no esta subiendo
 		global.dir = 2;
+		//Sprite Mover
+		//object_set_sprite(obj_snake,spr_snakeBody = 2);
 	}
 } else if(keyboard_check_pressed(vk_left)){
 	//Prevenir atravezar snake
