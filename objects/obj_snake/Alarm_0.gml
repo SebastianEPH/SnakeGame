@@ -4,7 +4,7 @@ if (position ==  global.points+1){
 	instance_destroy(); 
 }
 
-
+// Avanza el personaje 
 // Si éste objeto es la cabeza, entonces , tiene privilegios para crear otro objetox
 if (position == 0){
 	// Usar esta función para la explosion de bomberman
@@ -27,17 +27,36 @@ if (position == 0){
 		break;
 		default:
 		//
-	}
-	
-	
+	}}
 	//Llegó a longitud maxima
+//}else if (orientación){
+	
+// Final cola
+if (position == global.points){
+	// Cambiar al Sprite de cuerpo
+	sprite_index =spr_snakeEnd
+	
+	if (orientacion = 6 ){
+		image_index = 1;	
+	}
+	if (orientacion = 4 ){
+		image_index = 2;
+	}
+	if (orientacion = 2 ){
+		image_index = 3;
+	}
+	if (orientacion = 8 ){
+		image_index = 0;
+	}
 }
 
-// Ciclo - Vuelve a llamar alarma x 1 segundo
-alarm [0] = room_speed;	
+//}
+
+	// Ciclo - Vuelve a llamar alarma x 1 segundo
+	alarm [0] = room_speed;	
 
 
-//sumador
-position++;
+	//sumador
+	position++;
 
 

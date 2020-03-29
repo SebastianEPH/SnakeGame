@@ -1,5 +1,5 @@
 /// @description Pantalla info
-// 
+ 
 
 //
 draw_self();
