@@ -1,10 +1,8 @@
 /// @description Insert description here
 // 
-// Se crea en ditintos lugares de la 
-//randomize();
-// Rectificación de pocisión ;
+	// Obtiene posición X del Script
 	x = position_random_x()
-	//Altura
+	// Obtiene posición Y del script
 	y = position_random_y();
 //while (!place_empty(x,y)){
 //	// Ancho

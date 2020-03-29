@@ -14,7 +14,7 @@
 //random_range()
 
 	// Position será igual a un valor 64x2
-	var final = irandom_range(1,room_height/64-1);
+	var final = irandom_range(2,(room_height/64)-2)
 	final = final *64;
 	return final;
 
