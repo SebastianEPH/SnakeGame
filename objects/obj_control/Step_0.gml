@@ -1,11 +1,27 @@
 /// @description Insert description here
 // 
 if (keyboard_check_pressed(vk_down)){
-	global.dir = 2;
+	//Prevenir atravezar snake
+	if(global.dir != 8){
+		// Solo se puede mover si es el gusano no esta subiendo
+		global.dir = 2;
+	}
 } else if(keyboard_check_pressed(vk_left)){
-	global.dir = 4;
+	//Prevenir atravezar snake
+	if(global.dir != 6){
+		// Solo se puede mover si es el gusano no esta subiendo
+		global.dir = 4;
+	}
 } else if(keyboard_check_pressed(vk_up)){
-	global.dir = 8;
+	//Prevenir atravezar snake
+	if(global.dir != 2){
+		// Solo se puede mover si es el gusano no esta subiendo
+		global.dir = 8;
+	}
 } else if (keyboard_check_pressed(vk_right)){
-	global.dir = 6;
+	//Prevenir atravezar snake
+	if(global.dir != 4){
+		// Solo se puede mover si es el gusano no esta subiendo
+		global.dir = 6;
+	}
 }
