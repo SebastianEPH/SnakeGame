@@ -47,11 +47,43 @@
             }
         },
         {
+            "Key": "321cb61f-01d1-4bd7-a8a0-8689ee0da76f",
+            "Value": {
+                "id": "599ac08d-88dd-4664-a48a-996deb7f094d",
+                "resourcePath": "objects\\obj_point\\obj_point.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "32ddce5f-795c-440b-a1d5-f26dfb5f3f9f",
+            "Value": {
+                "id": "3a251e28-53b9-43ed-ae8d-e9730faa94d4",
+                "resourcePath": "sprites\\spr_snakeHead\\spr_snakeHead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3d470ff9-5edd-4330-a3d5-fe2daccd56b3",
+            "Value": {
+                "id": "6cf7b995-3d5f-412d-8e16-fabc57cdc511",
+                "resourcePath": "sprites\\spr_apple\\spr_apple.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "50b02fd3-2632-4812-9b05-8e2a68b56c1c",
             "Value": {
                 "id": "4c590366-a3dd-4354-8c68-04ce8efc8f08",
                 "resourcePath": "objects\\obj_snake\\obj_snake.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "612073f7-ce33-4a20-ac6f-66fad12202c5",
+            "Value": {
+                "id": "64fbc18b-c3ac-4e88-a390-6def08318957",
+                "resourcePath": "sprites\\spr_snakeBody\\spr_snakeBody.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

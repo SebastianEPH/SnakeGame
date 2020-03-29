@@ -1,5 +1,8 @@
 /// @description Mover, borrar bloque o incrementar posición
-
+if (position == longitud-1 || longitud == 1){
+	//Destruir Instancia
+	instance_destroy(); 
+}
 // Si éste objeto es la cabeza, entonces , tiene privilegios para crear otro objetox
 if (position == 0){
 	// Usar esta función para la explosion de bomberman
@@ -26,9 +29,6 @@ if (position == 0){
 	
 	
 	//Llegó a longitud maxima
-} else if (position == longitud-1){
-	//Destruir Instancia
-	instance_destroy(); 
 }
 
 //sumador
